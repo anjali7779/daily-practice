@@ -1,0 +1,27 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: sans-serif;
+}
+h1
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-size: 12em;
+	text-shadow: -10px 10px 20px rgba(0,0,0,.1);
+	line-height: 1em;
+	transition: 0.5s;
+}
+h1:hover
+{
+	text-shadow: -1px 1px 0px rgba(0,0,0,1),1px -1px 0px rgba(0,0,0,1)
+}

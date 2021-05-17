@@ -1,0 +1,49 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+ul
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+}
+ul li a
+{
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #262626;
+	font-weight: bold;
+}
+ul li a:before
+{
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 5px;
+	background: #262626;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 50%;
+}
+ul li a:hover:before
+{
+	opacity: 1;
+	box-shadow: 10px 0 0 #ff0052, -10px 0 0 #ff0052, 20px 0 0 #673ab7, -20px 0 0 #673ab7;
+}
