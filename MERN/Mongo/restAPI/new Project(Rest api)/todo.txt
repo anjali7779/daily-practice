@@ -1,0 +1,12 @@
+[ + ] Connect with mongodb atlas
+[ + ] Package and folder structure created(database,  model, routes)
+[ + ] Edit in server.js
+[ + ] connect database using node & express
+[ + ] create model(Ecom.js)
+[ - ]  Creating rest api
+[ - ]add product into database
+[ - ]get all product from the database
+[ - ]get specific product using id or model no.
+[ - ]Update products
+[ - ]Delete products
+[ - ]create seperate root file
